@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    box-sizing: border-box; 
+
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F6D050;
+    padding: 6%;
+}
+section{
+    background: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 8%;
+    border: 3px solid black;
+    display: block;
+    margin: auto;
+    box-shadow: 6px 6px black;
+    
+}
+
+#img-main{
+    width: 358px;
+    display: block;
+    margin: 5% auto;
+    border-radius: 8%;
+}
+button{
+    width: 70px;
+    height: 25px;
+    background: #F6D050;
+    color: black;
+    margin-left: 5%;
+    font-weight: bold;
+    border: none;
+    cursor: pointer; 
+}
+button:active{
+    opacity: 0.7;
+}
+
+#p-principal{
+    margin: 14px 0 14px 20px;
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 15px;
+}
+h1{
+    margin-left: 5%;
+    font-weight: bold;
+}
+#p-second{
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 350px;
+    color: #A0A0A0;
+}
+#avatar{
+    margin-left: 5%;
+    width: 12%; 
+    cursor: pointer;   
+}
+#avatar:active{
+    opacity: .5;
+}
+
+#avatar-name{
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    top: 81%;
+    left: 49%;
+    cursor: pointer;
+}
+#avatar-name:active{
+    opacity: .5;
+}
