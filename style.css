@@ -62,22 +62,22 @@ h1{
     color: #A0A0A0;
 }
 #avatar{
-    margin-left: 5%;
+    display: block;
+    margin: 0 auto;
     width: 12%; 
     cursor: pointer;   
 }
 #avatar:active{
     opacity: .5;
 }
-
 #avatar-name{
-    font-weight: bold;
     font-size: 15px;
-    position: absolute;
-    top: 81%;
-    left: 49%;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 800;
     cursor: pointer;
 }
+
 #avatar-name:active{
     opacity: .5;
 }
